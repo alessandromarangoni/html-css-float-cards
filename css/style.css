@@ -9,6 +9,7 @@
 }
 /* imposto font e centro titolo */
 h1{
+    font-size: 40px;
     padding: 3%;
     text-align: center;
     font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
@@ -16,6 +17,7 @@ h1{
 }
 
 p{
+    margin-bottom: 1%;
     text-align: center;
 }
 /* stilizzo le box */
@@ -46,11 +48,20 @@ img{
     float: left;
     margin-left: 10px;
 }
-.mail{
+/* .mail{
     display: inline-block;
     color: rgb(0, 234, 255);
     padding: 2% 0;
     margin-top: 5px;
+} */
+
+/* sostituisco con un tag piu appropriato */
+
+.MailLink{
+    display: inline-block;
+    margin-top: 5%;
+    color: rgb(0, 234, 255);
+    text-decoration: none;
 }
 .job{
     display: inline-block;

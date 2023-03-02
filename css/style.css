@@ -1,12 +1,13 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-
 }
+/* do una grandezza dell 80% */
 .container{
     width: 80%;
     margin: auto;
 }
+/* imposto font e centro titolo */
 h1{
     padding: 3%;
     text-align: center;
@@ -17,7 +18,7 @@ h1{
 p{
     text-align: center;
 }
-
+/* stilizzo le box */
 .box{
     margin-right: 2%;
     color: white;
@@ -27,15 +28,18 @@ p{
     width: 360px;
     float: left;
 }
+/* stilizzo gli h2 */
 h2{
     font-size: large;
     font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
     padding: 1% 0;
 }
+/* do una randezza all immagine e la floatto a sinistra */
 img{
     height: 100px;
     float: left;
 }
+/* stilizzo i testi all interno della box */
 .portfolio{
     padding: 2%;
     float: left;

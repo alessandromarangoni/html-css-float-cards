@@ -1,0 +1,40 @@
+*{
+    margin: 0 auto;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    padding: 3%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.box{
+    margin-top: 5%;
+    height: 100px;
+    width: 350px;
+    background-color: aquamarine;
+}
+h2{
+    padding: 1% 0;
+}
+img{
+    height: 100px;
+    float: left;
+}
+.portfolio{
+    padding: 2%;
+    float: left;
+    margin-left: 10px;
+}
+.mail{
+    display: inline-block;
+    color: rgb(0, 234, 255);
+    padding: 2% 0;
+}

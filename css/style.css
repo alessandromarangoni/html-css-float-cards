@@ -20,6 +20,7 @@ p{
 }
 /* stilizzo le box */
 .box{
+    box-shadow: -2px -1px 9px 1px rgba(69,69,69,0.47);
     margin-right: 2%;
     color: white;
     background-color: #0f0e17;

@@ -1,6 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    box-sizing: border-box;
 }
 /* do una grandezza dell 80% */
 .container{
@@ -23,7 +24,8 @@ p{
 /* stilizzo le box */
 .box{
     box-shadow: -2px -1px 9px 1px rgba(69,69,69,0.47);
-    margin-right: 2%;
+    margin-right: 10px;
+    margin-left: 10px;
     color: white;
     background-color: #0f0e17;
     margin-top: 3%;
@@ -44,7 +46,7 @@ img{
 }
 /* stilizzo i testi all interno della box */
 .portfolio{
-    padding: 2%;
+    padding: 3%;
     float: left;
     margin-left: 10px;
 }

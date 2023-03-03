@@ -24,14 +24,21 @@ p{
 /* stilizzo le box */
 .box{
     box-shadow: -2px -1px 9px 1px rgba(69,69,69,0.47);
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 10PX;
+    margin-left: 10PX;
     color: white;
     background-color: #0f0e17;
     margin-top: 3%;
     height: 100px;
     width: 360px;
     float: left;
+    /* LUCA DICE CHE NON CONVIENE DARE UN ALTEZZA AL DIV */
+}
+/* aggiunto in classe il clearfix la quale mi ero dienticato */
+main::after{
+    display: block;
+    clear: both;
+    content: '';
 }
 /* stilizzo gli h2 */
 h2{
@@ -68,4 +75,11 @@ img{
 .job{
     display: inline-block;
     margin-top: 5px;
+    
+}
+
+.portfolio::after{
+    display: block;
+    clear: both;
+    content: '';
 }
